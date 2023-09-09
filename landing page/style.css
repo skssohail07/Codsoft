@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt';
+    scroll-behavior: smooth;
+}
+.body{
+    background:black;
+}
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.main{
+    background: black;
+}
+.main img{
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 900px;
+    position: block;
+    margin-left: 12%;
+    margin-right: auto;
+    background: black;
+}
+.navbar a{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.logo{
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.interior{
+    position: relative;
+    background: black;
+    color: aliceblue;
+    padding-top: 1%;
+}
+.interior h2{
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 10%;
+}
+.interior img{
+    padding-top: 1%;
+    margin-left: 12%;
+    width: 800px;
+    height: 450px;
+}
+#second{
+    margin-left: 0%;
+}
+.seating{
+    position: relative;
+    background: black;
+    color: aliceblue;
+    padding-top: 1%;
+}
+.seating h2{
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 10%;
+}
+.seating img{
+    padding-top: 1%;
+    margin-left: 12%;
+    width: 1600px;
+    height: 900px;
+}
+.container{
+    padding-left: 12%;
+}
+.container textarea{
+    margin-left: 2%;
+    font-size: 20px;
+    text-align: left;    
+}
+.contact{
+    background: black;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-left: 10%;
+    width: auto;
+    height: auto;
+
+}
+.contact h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.contact p{
+    margin-left: 2%;
+    font-size: 18px;
+}
+.testride{
+    background: black;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+}
+.testride h2{
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 10%;
+}
+.testride label{
+    font-size: 30px;
+    padding-left: 12%;
+    padding-right: 80px;
+}
+.testride input{
+    margin-left: 20px;
+    border:3px solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    font-size: 20px;
+    width: 400px;
+    height:50px;
+    background:transparent;
+    color:aliceblue;
+    overflow: hidden;
+}
+.testride textarea{
+    width: 400px;
+    height: 100px;
+    border:3px solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background:transparent;
+    color:aliceblue;
+    overflow: hidden;
+}
+.contact i{
+    font-weight: 700;
+    border-color: aliceblue;
+    border: 3px solid;
+    margin-left: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.specs{
+    background: black;
+}
+.specs h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 10%;
+    color: aliceblue;
+    padding-top: 1%;
+}
+.specs p{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 10%;
+    color: aliceblue;
+    padding-top: 1%;
+    text-align: center;
+    display: inline-flex;
+}
+.spe{
+    margin-left: 21%;    
+}
+
+.footer {
+    padding-top: 3%;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.about p{
+    padding-left: 21.5%;
+    padding-right: 1%;
+    font-size: 18px;
+}
+.interior p{
+    text-align: center;
+    padding-right: 1%;
+    font-size: 18px;
+}
+.seating p{
+    text-align: center;
+    padding-right: 1%;
+    font-size: 18px;
+}
+.seating p{
+    text-align: center;
+    padding-right: 1%;
+    font-size: 18px;
+}
+.testride p{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 1%;
+    font-size: 18px;
+}
